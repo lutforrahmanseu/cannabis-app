@@ -1,0 +1,35 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+  margin-right: 50px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+}
+.top-banner {
+  background-color: #ede8e8;
+}
+.left-side {
+  border: 2px solid yellow;
+}
+.grower-button {
+  width: 436px;
+  height: 43px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  background: #47cc4d;
+}
+.logo-img {
+  width: 150px;
+  height: 118.03px;
+  margin-left: 120px;
+  margin-bottom: 25px;
+}
+.top-title {
+  margin-top: 30px;
+}
