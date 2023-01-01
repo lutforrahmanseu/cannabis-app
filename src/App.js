@@ -1,20 +1,17 @@
 // import logo from './logo.svg';
 import { useEffect, useState } from "react";
 import Home from "./components/Home/Home";
-
 function App() {
-  const [card, setCard] = useState({});
+  const [card, setCard] = useState();
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
       .then((data) => setCard(data));
   }, []);
-  console.log(card);
   return (
     <div>
-      <Home card={card}></Home>
+      <Home card={card} />
     </div>
   );
 }
-
 export default App;

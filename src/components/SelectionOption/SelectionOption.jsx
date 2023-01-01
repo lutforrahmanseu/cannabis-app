@@ -1,28 +1,38 @@
 import React from "react";
 import CardInformation from "../CardInformation/CardInformation";
 import "./SelectionOption.css";
+import location from "../../assets/location.png";
+import category from "../../assets/category.png";
+import price from "../../assets/price.png";
+import stater from "../../assets/stater.png";
+import cultivation from "../../assets/cultivation.png";
 const SelectionOption = ({ card }) => {
-  console.log(card);
   return (
     <div className="card-container">
       <div className="select-info">
         <div className="all-info">
-          <p className="location-pera">Location</p>
+          <div className="location-icon">
+            <p className="location-pera">Location</p>
+            <img src={location} alt="" />
+          </div>
           <hr />
         </div>
         {/* select option */}
         <div>
           <select className="select select-bordered w-[80%] ml-6">
             <option disabled selected>
-              Tusia
+              Tulsa
             </option>
             <option>Han Solo</option>
-            <option>Greedo</option>
+            <option>Flowers</option>
           </select>
         </div>
         {/* category */}
         <div className="all-info">
-          <p className="location-pera">Category</p>
+          <div className="location-icon">
+            <p className="location-pera">Category</p>
+            <img src={category} alt="" />
+          </div>
         </div>
         <div className="all-info">
           {/* check box */}
@@ -59,7 +69,10 @@ const SelectionOption = ({ card }) => {
         </div>
         {/* price */}
         <div className="all-info">
-          <p className="location-pera">Price</p>
+          <div className="location-icon">
+            <p className="location-pera">Price</p>
+            <img src={price} alt="" />
+          </div>
           <hr />
           <div className="flex justify-between mt-4">
             <span>$0</span>
@@ -74,7 +87,10 @@ const SelectionOption = ({ card }) => {
         </div>
         {/* strain */}
         <div className="all-info">
-          <p className="location-pera">Strain</p>
+          <div className="location-icon">
+            <p className="location-pera">Strain</p>
+            <img src={stater} alt="" />
+          </div>
           <hr />
           <div className="mt-4">
             <button className="indigo-button">Indica</button>
@@ -84,7 +100,10 @@ const SelectionOption = ({ card }) => {
         </div>
         {/* Cultivation Type */}
         <div className="all-info">
-          <p className="location-pera">Cultivation Type</p>
+          <div className="location-icon">
+            <p className="location-pera">Cultivation Type</p>
+            <img src={cultivation} alt="" />
+          </div>
           <hr />
           <div className="mt-4">
             <button className="indigo-button">All</button>
@@ -95,12 +114,11 @@ const SelectionOption = ({ card }) => {
       </div>
 
       {/* right side card  */}
-      <div className="card-information">
-        <div className="grid grid-rows-1 grid-flow-col bg-white mr-5 rounded-sm">
-          {card?.map((cards) => (
-            <CardInformation card={cards} key={cards}></CardInformation>
-          ))}
-        </div>
+
+      <div className="card-option">
+        {card?.map((cards) => (
+          <CardInformation card={cards} key={cards.id} />
+        ))}
       </div>
     </div>
   );

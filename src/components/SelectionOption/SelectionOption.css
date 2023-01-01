@@ -1,3 +1,18 @@
-/* .card-information {
-  background-color: #ffff;
-} */
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 25px;
+  margin-top: 40px;
+}
+.location-pera {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+.location-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+}

@@ -1,0 +1,10 @@
+.nav-container {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+.pic-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}

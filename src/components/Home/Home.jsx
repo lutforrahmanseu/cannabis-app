@@ -1,11 +1,11 @@
 import React from "react";
+
 import Navbar from "../Navbar/Navbar";
 import "./Home.css";
 import logo from "../../cannabis.png";
 import Menu from "../Menu/Menu";
 import SelectionOption from "../SelectionOption/SelectionOption";
 const Home = ({ card }) => {
-  console.log(card);
   return (
     <div className="home-container">
       <div className="left-side">
