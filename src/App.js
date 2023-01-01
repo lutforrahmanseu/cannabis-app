@@ -9,7 +9,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => setCard(data));
   }, []);
-
+  console.log(card);
   return (
     <div>
       <Home card={card}></Home>

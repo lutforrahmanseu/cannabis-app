@@ -1,6 +1,8 @@
 import React from "react";
-
-const SelectionOption = () => {
+import CardInformation from "../CardInformation/CardInformation";
+import "./SelectionOption.css";
+const SelectionOption = ({ card }) => {
+  console.log(card);
   return (
     <div className="card-container">
       <div className="select-info">
@@ -91,7 +93,15 @@ const SelectionOption = () => {
           </div>
         </div>
       </div>
-      <div>Right side</div>
+
+      {/* right side card  */}
+      <div className="card-information">
+        <div className="grid grid-rows-1 grid-flow-col bg-white mr-5 rounded-sm">
+          {card?.map((cards) => (
+            <CardInformation card={cards} key={cards}></CardInformation>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

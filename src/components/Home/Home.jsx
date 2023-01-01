@@ -26,7 +26,7 @@ const Home = ({ card }) => {
               Explore and bid on your desired product based on several filters
             </p>
           </div>
-          <SelectionOption />
+          <SelectionOption card={card} />
         </div>
       </div>
     </div>
