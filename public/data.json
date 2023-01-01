@@ -1,0 +1,58 @@
+[
+    {
+        "name": "ACDC #08 Outdoor",
+        "id": 1,
+        "info": "The Green Bull 2 LLC",
+        "img": "https://i.ibb.co/CwNtVdV/Rectangle-28.png",
+        "price": "$600.00/lb",
+        "ask": "Asking Price"
+    },
+    {
+        "name": "ACDC #08 Outdoor",
+        "id": 2,
+        "info": "WCW Enterprises, LLC",
+        "img": "https://i.ibb.co/GW15ync/Rectangle-30.png",
+        "price": "$1100.00/lb",
+        "ask": "Asking Price"
+    },
+    {
+        "name": "ACDC #08 Outdoor",
+        "id": 3,
+        "info": "Green Country MMJ",
+        "img": "https://i.ibb.co/MR929ZT/Rectangle-33.png",
+        "price": "$800.00/lb",
+        "ask": "Asking Price"
+    },
+    {
+        "name": "ACDC #08 Outdoor",
+        "id": 4,
+        "info": "Gold Leaf Acres, LLC",
+        "img": "https://i.ibb.co/xFTqpbM/Rectangle-45.png",
+        "price": "$600.00/lb",
+        "ask": "Asking Price"
+    },
+    {
+        "name": "ACDC #08 Outdoor",
+        "id": 5,
+        "info": "Pong Thao",
+        "img": "https://i.ibb.co/vjVbNhy/Rectangle-46.png",
+        "price": "$650.00/lb",
+        "ask": "Asking Price"
+    },
+    {
+        "name": "ACDC #08 Outdoor",
+        "id": 6,
+        "info": "Loud Factory, LLC",
+        "img": "https://i.ibb.co/CwNtVdV/Rectangle-28.png",
+        "price": "$790.00/lb",
+        "ask": "Asking Price"
+    },
+    {
+        "name": "ACDC #08 Outdoor",
+        "id": 7,
+        "info": "Loud Factory, LLC",
+        "img": "http://placehold.it/32x32",
+        "price": "$600.00/lb",
+        "ask": "Asking Price"
+    }
+]
