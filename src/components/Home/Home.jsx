@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import "./Home.css";
 import logo from "../../cannabis.png";
 import Menu from "../Menu/Menu";
+import SelectionOption from "../SelecttionOption/SelectionOption";
 const Home = () => {
   return (
     <div className="home-container">
@@ -12,7 +13,7 @@ const Home = () => {
           <button className="grower-button">Grower</button>
         </div>
         <div>
-          <Menu></Menu>
+          <Menu />
         </div>
       </div>
       <div className="right-side">
@@ -24,10 +25,7 @@ const Home = () => {
               Explore and bid on your desired product based on several filters
             </p>
           </div>
-          <div className="card-container">
-            <div>Left side</div>
-            <div>Right side</div>
-          </div>
+          <SelectionOption />
         </div>
       </div>
     </div>
