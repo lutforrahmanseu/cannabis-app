@@ -115,7 +115,7 @@ const SelectionOption = ({ card }) => {
 
       {/* right side card  */}
 
-      <div className="card-option">
+      <div className="grid grid-cols-1 w-full gap-4 ">
         {card?.map((cards) => (
           <CardInformation card={cards} key={cards.id} />
         ))}

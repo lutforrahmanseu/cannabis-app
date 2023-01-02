@@ -5,7 +5,13 @@
         "info": "The Green Bull 2 LLC",
         "img": "https://i.ibb.co/CwNtVdV/Rectangle-28.png",
         "price": "$600.00/lb",
-        "ask": "Asking Price"
+        "ask": "Asking Price",
+        "icon": "https://i.ibb.co/7NtshK3/awarded.png",
+        "btnIcon": "https://i.ibb.co/MNGmgfd/btnIcon.png",
+        "thc": "THC",
+        "cbd": "CBD",
+        "percent": "1%",
+        "percent1": "12%"
     },
     {
         "name": "ACDC #08 Outdoor",
@@ -13,7 +19,13 @@
         "info": "WCW Enterprises, LLC",
         "img": "https://i.ibb.co/GW15ync/Rectangle-30.png",
         "price": "$1100.00/lb",
-        "ask": "Asking Price"
+        "ask": "Asking Price",
+        "icon": "https://i.ibb.co/RzkdxZ7/cros.png",
+        "btnIcon": "https://i.ibb.co/MNGmgfd/btnIcon.png",
+        "thc": "THC",
+        "cbd": "CBD",
+        "percent": "1%",
+        "percent1": "12%"
     },
     {
         "name": "ACDC #08 Outdoor",
@@ -21,7 +33,13 @@
         "info": "Green Country MMJ",
         "img": "https://i.ibb.co/MR929ZT/Rectangle-33.png",
         "price": "$800.00/lb",
-        "ask": "Asking Price"
+        "ask": "Asking Price",
+        "icon": "https://i.ibb.co/7NtshK3/awarded.png",
+        "btnIcon": "https://i.ibb.co/MNGmgfd/btnIcon.png",
+        "thc": "THC",
+        "cbd": "CBD",
+        "percent": "1%",
+        "percent1": "12%"
     },
     {
         "name": "ACDC #08 Outdoor",
@@ -29,7 +47,13 @@
         "info": "Gold Leaf Acres, LLC",
         "img": "https://i.ibb.co/xFTqpbM/Rectangle-45.png",
         "price": "$600.00/lb",
-        "ask": "Asking Price"
+        "ask": "Asking Price",
+        "icon": "https://i.ibb.co/HYB1R2W/time.png",
+        "btnIcon": "https://i.ibb.co/MNGmgfd/btnIcon.png",
+        "thc": "THC",
+        "cbd": "CBD",
+        "percent": "1%",
+        "percent1": "12%"
     },
     {
         "name": "ACDC #08 Outdoor",
@@ -37,7 +61,13 @@
         "info": "Pong Thao",
         "img": "https://i.ibb.co/vjVbNhy/Rectangle-46.png",
         "price": "$650.00/lb",
-        "ask": "Asking Price"
+        "ask": "Asking Price",
+        "icon": "https://i.ibb.co/HYB1R2W/time.png",
+        "btnIcon": "https://i.ibb.co/MNGmgfd/btnIcon.png",
+        "thc": "THC",
+        "cbd": "CBD",
+        "percent": "1%",
+        "percent1": "12%"
     },
     {
         "name": "ACDC #08 Outdoor",
@@ -45,14 +75,11 @@
         "info": "Loud Factory, LLC",
         "img": "https://i.ibb.co/CwNtVdV/Rectangle-28.png",
         "price": "$790.00/lb",
-        "ask": "Asking Price"
-    },
-    {
-        "name": "ACDC #08 Outdoor",
-        "id": 7,
-        "info": "Loud Factory, LLC",
-        "img": "http://placehold.it/32x32",
-        "price": "$600.00/lb",
-        "ask": "Asking Price"
+        "ask": "Asking Price",
+        "btnIcon": "https://i.ibb.co/MNGmgfd/btnIcon.png",
+        "thc": "THC",
+        "cbd": "CBD",
+        "percent": "1%",
+        "percent1": "12%"
     }
 ]

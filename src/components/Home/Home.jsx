@@ -1,5 +1,4 @@
 import React from "react";
-
 import Navbar from "../Navbar/Navbar";
 import "./Home.css";
 import logo from "../../cannabis.png";
@@ -8,7 +7,7 @@ import SelectionOption from "../SelectionOption/SelectionOption";
 const Home = ({ card }) => {
   return (
     <div className="home-container">
-      <div className="left-side">
+      <div className="lef t-side">
         <div>
           <img src={logo} className=" logo-img" alt="" />
           <button className="grower-button">Grower</button>

@@ -16,3 +16,23 @@
   align-items: center;
   gap: 25px;
 }
+.all-info {
+  margin: 30px;
+}
+.select-info {
+  margin-left: 30px;
+  width: 265px;
+  height: 789px;
+  background: #ffffff;
+  height: 100%;
+}
+
+.indigo-button {
+  padding: 5px;
+  border: 1px solid gray;
+}
+.indigo-button:nth-child(1) {
+  padding: 5px;
+  border: 1px solid #47cc4d;
+  color: #47cc4d;
+}
