@@ -9,6 +9,15 @@ import flower4 from "../../assets/flower4.png";
 import flower5 from "../../assets/flower5.png";
 import linkIcon from "../../assets/linkicon.png";
 import pic from "../../assets/pic.png";
+import pic1 from "../../assets/pic2.png";
+import pic2 from "../../assets/pic3.png";
+import point from "../../assets/point.png";
+import market from "../../assets/market.png";
+import epl from "../../assets/Ellipse 54.png";
+import epl1 from "../../assets/pric.png";
+import epl2 from "../../assets/don.png";
+import epl3 from "../../assets/btnIcon.png";
+import epl4 from "../../assets/progres.png";
 
 const ViewDetails = () => {
   return (
@@ -50,7 +59,61 @@ const ViewDetails = () => {
             </div>
 
             {/* card */}
-            <div></div>
+            <div className="grid grid-rows-3 gap-2">
+              <div className="flex h-25  mt-4 justify-between align-middle">
+                <div className="card1 ">
+                  <img src={point} alt="" />
+                  <div className="text-xl">
+                    <p>Total Stock</p>
+                    <p>1000lb</p>
+                  </div>
+                </div>
+                <div className="card2">
+                  <div className="flex gap-2">
+                    <img src={market} className="w-4" alt="" />
+                    <p>Marketplace</p>
+                  </div>
+                  <div className="flex gap-2">
+                    <div>
+                      <img src={epl} className="w-4" alt="" />
+                      <p>Allocated</p>
+                      <p>100lb</p>
+                    </div>
+                    <div>
+                      <img src={epl2} className="w-4" alt="" />
+                      <p>Min Qty</p>
+                      <p>5lb</p>
+                    </div>
+                    <div>
+                      <img src={epl1} className="w-4" alt="" />
+                      <p>Price</p>
+                      <p>$600/lb</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="card2">
+                  <div className="flex gap-2">
+                    <img src={epl3} className="w-4" alt="" />
+                    <p>Auction</p>
+                  </div>
+                  <div className="flex gap-2">
+                    <div>
+                      <img src={epl} className="text-slate-700 w-4" alt="" />
+                      <p>Allocated</p>
+                      <p>100lb</p>
+                    </div>
+                    <div>
+                      <img src={epl2} className="w-4" alt="" />
+                      <p>Min Qty</p>
+                      <p>5lb</p>
+                    </div>
+                    <div>
+                      <img src={epl4} className="w-4" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="">
             <div className="flex">
@@ -116,7 +179,7 @@ const ViewDetails = () => {
         </div>
         <div className="flex justify-start">
           <div className="flex justify-start gap-10">
-            <img src={pic} alt="" />
+            <img src={pic1} alt="" />
             <div className="flex justify-evenly gap-4">
               <div>
                 <h1>Ken Miles</h1>
@@ -129,7 +192,7 @@ const ViewDetails = () => {
         </div>
         <div className="flex justify-start mb-8">
           <div className="flex justify-start gap-10">
-            <img src={pic} alt="" />
+            <img src={pic2} alt="" />
             <div className="flex justify-evenly gap-4">
               <div>
                 <h1>Ken Miles</h1>

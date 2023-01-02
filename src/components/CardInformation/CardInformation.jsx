@@ -15,8 +15,6 @@ const CardInformation = ({ card }) => {
     percent,
     percent1,
   } = card;
-  console.log(name);
-  console.log(card);
 
   return (
     <div className="card-information">

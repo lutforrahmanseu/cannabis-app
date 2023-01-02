@@ -12,7 +12,7 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => setCard(data));
   }, []);
-  console.log(card);
+
   return (
     <BrowserRouter>
       <Routes>

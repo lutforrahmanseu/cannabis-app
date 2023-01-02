@@ -7,7 +7,6 @@ import price from "../../assets/price.png";
 import stater from "../../assets/stater.png";
 import cultivation from "../../assets/cultivation.png";
 const SelectionOption = ({ card }) => {
-  console.log(card);
   return (
     <div className="card-container">
       <div className="select-info">
