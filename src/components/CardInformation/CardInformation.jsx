@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CardInformation.css";
 const CardInformation = ({ card }) => {
   const {
@@ -14,6 +15,8 @@ const CardInformation = ({ card }) => {
     percent,
     percent1,
   } = card;
+  console.log(name);
+  console.log(card);
 
   return (
     <div className="card-information">
@@ -61,7 +64,9 @@ const CardInformation = ({ card }) => {
           <img src={btnIcon} alt="" />
           <p> Bid</p>
         </button>
-        <button className="view">View</button>
+        <Link className="view" to="/inventory">
+          View
+        </Link>
       </div>
     </div>
   );
