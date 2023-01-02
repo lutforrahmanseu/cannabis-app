@@ -1,0 +1,32 @@
+.view-details {
+  margin-top: 15px;
+  background-color: #f2f2f2;
+}
+.back-button {
+  background-color: #ffff;
+}
+.back-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.side-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.out-door {
+  display: flex;
+  justify-content: space-between;
+  color: #4caf50;
+}
+.flo-wers {
+  color: #333333;
+}
+.footer-banner {
+  background-color: #ffff;
+}
+.link-color {
+  color: #4caf50;
+  border-bottom: 2px solid #4caf50;
+}

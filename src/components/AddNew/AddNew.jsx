@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "../Menu/Menu";
 import Navbar from "../Navbar/Navbar";
 import logo from "../../cannabis.png";
+import ViewDetails from "../ViewDetails/ViewDetails";
 
 const AddNew = () => {
   return (
@@ -18,6 +19,7 @@ const AddNew = () => {
 
       <div className="right-side">
         <Navbar></Navbar>
+        <ViewDetails></ViewDetails>
       </div>
     </div>
   );
